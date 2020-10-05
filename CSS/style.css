@@ -1,0 +1,51 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: rgb(10, 100, 120);
+    font-family: lato;
+}
+
+
+img{
+    width: 100%;    
+    height: 500px;
+}
+
+#slider{
+    width: 1000px;
+    height: 500px;;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid greenyellow;
+    box-shadow: (0px 0px 5px 2px #ccc);
+}
+
+.txt{
+    color: #ffff;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;    
+}
+
+button{
+    padding: 20px;
+    position: absolute;
+    border: none;
+    background: #37F;
+    font-size: 30px;
+    color: white;
+    top: 45%;
+}
+
+.left{
+border-radius:  0px 10px 10px 0px;
+}
+
+.right{
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 950px;
+}
